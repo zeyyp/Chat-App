@@ -1,0 +1,10 @@
+.messages {
+    display: flex;
+    flex-direction: column;
+    overflow-y: scroll;
+    scrollbar-width: none; /* Kaydırma çubuğunu gizle (Firefox) */
+}
+
+.messages::-webkit-scrollbar {
+    display: none; /* Kaydırma çubuğunu gizle (Chrome/Safari) */
+}
